@@ -1,0 +1,7 @@
+color_list_1 = ["red" ,"pink","brown","blue", "violet"]
+color_list_2 = ["pink", "brown", "black", "white", "green"]
+missing_colors= []
+for color in color_list_1:color_list_1
+   if color not in color_list_2:
+         missing_colors.append(color)
+print(missing_colors)
